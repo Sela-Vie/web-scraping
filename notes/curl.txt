@@ -1,0 +1,8 @@
+curl \
+--location 'http://0.0.0.0:81/api/login' \
+--header 'Content-Type: application/json' \
+--header 'Accept: application/json' \
+--data '{
+  "username": "$USER_NAME",
+  "password": "$PASSWORD"
+}'
